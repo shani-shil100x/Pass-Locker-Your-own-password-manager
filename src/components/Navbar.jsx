@@ -8,10 +8,16 @@ const Navbar = () => {
         Pass
         <span className=" text-gray-400">-Locker/&gt;</span>
       </div>
-      <button className="ring-white ring-1 flex items-center gap-2 bg-green-800 hover:bg-green-700 text-white font-semibold px-4 py-1 pl-1 rounded-full transition duration-200">
-        <img src="icons/github.svg" alt="GitHub" className=" invert w-6" />
-        GitHub
-      </button>
+      <a
+        href="https://github.com/shani-shil100x/Pass-Locker-Your-own-password-manager"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="ring-white ring-1 flex items-center gap-2 bg-green-800 hover:bg-green-700 text-white font-semibold px-4 py-1 pl-1 rounded-full transition duration-200">
+          <img src="icons/github.svg" alt="GitHub" className=" invert w-6" />
+          GitHub
+        </button>
+      </a>
     </nav>
   );
 };
