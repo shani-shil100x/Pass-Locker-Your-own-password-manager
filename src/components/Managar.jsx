@@ -32,10 +32,10 @@ const Managar = () => {
     console.log(ref.current.src);
     passwordRef.current.type = "text";
     if (ref.current.src.includes("hide.png")) {
-      ref.current.src = "/icons/eye.png";
+      ref.current.src = "icons/eye.png";
       passwordRef.current.type = "text";
     } else {
-      ref.current.src = "/icons/hide.png";
+      ref.current.src = "icons/hide.png";
       passwordRef.current.type = "password";
     }
   };
@@ -175,7 +175,7 @@ const Managar = () => {
                 className="absolute right-2 top-1/2 transform -translate-y-1/2 "
               >
                 <img
-                  src="/icons/hide.png"
+                  src="icons/hide.png"
                   alt="eye"
                   className="w-6 p-1 cursor-pointer"
                   ref={ref}
